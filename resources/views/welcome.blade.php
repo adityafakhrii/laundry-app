@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplikasi Laundry | Uji Kompetensi Keahlian SMKN 2 Sukabumi </title>
     {{-- Font Awesome --}}
-    <link rel="stylesheet" type="text/css" href="{{asset('asset/fontawesome/css/all.css')}}"></link>
+    <link rel="stylesheet" type="text/css" href="asset/fontawesome/css/all.css"></link>
     {{-- Poppins Font Family --}}
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap" rel="stylesheet">
     {{-- Css nya --}}
-    <link rel="stylesheet" href="/../public/asset/landing/css/style.css">
+    <link rel="stylesheet" href="asset/landing/css/style.css">
     <link rel="icon" href="{{asset('asset/img/icon.svg')}}">
 </head>
 <body>
