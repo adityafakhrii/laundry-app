@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00B0FF;}
+	.st1{fill:#03D0FF;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:url(#SVGID_1_);}
+	.st4{fill:url(#SVGID_2_);}
+	.st5{fill:url(#SVGID_3_);}
+	.st6{fill:#E6F9FE;}
+</style>
+<path class="st0" d="M64,0h384c11.8,0,21.3,9.6,21.3,21.3v469.3c0,11.8-9.6,21.3-21.3,21.3H64c-11.8,0-21.3-9.6-21.3-21.3V21.3
+	C42.7,9.6,52.2,0,64,0z"/>
+<path class="st0" d="M106.7,490.7V21.3C106.7,9.6,116.2,0,128,0H64C52.2,0,42.7,9.6,42.7,21.3v469.3c0,11.8,9.6,21.3,21.3,21.3h64
+	C116.2,512,106.7,502.4,106.7,490.7z"/>
+<path class="st1" d="M42.7,448v42.7c0,11.8,9.6,21.3,21.3,21.3h384c11.8,0,21.3-9.6,21.3-21.3V448H42.7z"/>
+<circle class="st2" cx="256" cy="256" r="106.7"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="24.6665" y1="515.7053" x2="73.6845" y2="564.7233" gradientTransform="matrix(2.6667 0 0 -2.6667 68.3333 1640.0394)">
+	<stop  offset="0" style="stop-color:#34CDFA"/>
+	<stop  offset="1" style="stop-color:#E8D9F1"/>
+</linearGradient>
+<path class="st3" d="M256,149.3c-58.9,0-106.6,47.7-106.7,106.6c0,9.4,1.2,18.8,3.7,27.8L283.7,153
+	C274.7,150.6,265.4,149.3,256,149.3z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="39.8249" y1="493.0067" x2="96.3825" y2="549.5642" gradientTransform="matrix(2.6667 0 0 -2.6667 68.3333 1640.0394)">
+	<stop  offset="0" style="stop-color:#34CDFA"/>
+	<stop  offset="1" style="stop-color:#E8D9F1"/>
+</linearGradient>
+<path class="st4" d="M290.9,155.2L155.2,290.9c8.6,24.8,26.1,45.6,49.1,58.4l145-145C336.5,181.3,315.8,163.9,290.9,155.2z"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="66.2051" y1="473.2617" x2="116.1281" y2="523.1847" gradientTransform="matrix(2.6667 0 0 -2.6667 68.3333 1640.0394)">
+	<stop  offset="0" style="stop-color:#34CDFA"/>
+	<stop  offset="1" style="stop-color:#E8D9F1"/>
+</linearGradient>
+<path class="st5" d="M358,224.9L224.9,358c56.3,17.3,115.9-14.4,133.1-70.6C364.2,267,364.2,245.2,358,224.9z"/>
+<g>
+	<circle class="st1" cx="213.3" cy="64" r="21.3"/>
+	<circle class="st1" cx="128" cy="64" r="21.3"/>
+	<path class="st1" d="M320,42.7h85.3v42.7H320V42.7z"/>
+</g>
+<path class="st6" d="M256,128c-70.7,0-128,57.3-128,128s57.3,128,128,128s128-57.3,128-128C383.9,185.3,326.7,128.1,256,128z
+	 M170.7,256c0-47.1,38.1-85.3,85.2-85.3c19.4,0,38.3,6.6,53.5,18.8c-36.8,29.4-42.7,83.1-13.3,119.8c3.9,4.9,8.4,9.4,13.3,13.3
+	c-36.7,29.5-90.4,23.6-119.9-13.1C177.3,294.3,170.7,275.4,170.7,256z"/>
+</svg>
