@@ -6,7 +6,7 @@
     <title>Tentang | Dirtless</title>
     {{-- Font Awesome --}}
     <script src="https://kit.fontawesome.com/095e56106e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('asset/fontawesome/css/all.css')}}"></link>
+  
     {{-- Poppins Font Family --}}
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap" rel="stylesheet">
