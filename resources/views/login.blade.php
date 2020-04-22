@@ -4,7 +4,7 @@
     <title>Login Aplikasi Laundry | UKK SMKN 2 Sukabumi</title>
     <link rel="stylesheet" type="text/css" href="asset/login/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="asset/fontawesome/css/all.css"></link>
+    <script src="https://kit.fontawesome.com/095e56106e.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="asset/img/icon.svg">
 </head>
