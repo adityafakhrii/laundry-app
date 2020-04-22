@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dirtless | Aplikasi Laundry</title>
     {{-- Font Awesome --}}    
-    <script src="https://kit.fontawesome.com/095e56106e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="asset/fontawesome/css/all.css"></link>
     
     {{-- Poppins Font Family --}}
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
