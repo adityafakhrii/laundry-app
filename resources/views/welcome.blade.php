@@ -26,7 +26,7 @@
 
                         <div class="navbar-header">
                             <a href="/" class="logo">
-                                <img src="{{asset('asset/landing/img/logo.svg')}}" alt="logo.svg">
+                                <img src="asset/landing/img/logo.svg" alt="logo.svg">
                                 <span>Dirtless</span> 
                             </a>
                         </div>
@@ -68,7 +68,7 @@
                         <a class="selengkapnya" href="/tentang">Selengkapnya . . .</a>
                     </div>
                     <div class="image">
-                        <img src="{{asset('asset/landing/img/bg4.svg')}}" alt="landing.svg">
+                        <img src="asset/landing/img/bg4.svg" alt="landing.svg">
                     </div>
                 </div>
 
