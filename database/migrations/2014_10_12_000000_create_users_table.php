@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('nama',100);
             $table->string('username',30)->unique();
             $table->string('password',100);
-            $table->integer('id_outlet')->unsigned();
+            $table->integer('id_outlet')->nullable()->unsigned();
             $table->enum('role',['admin','kasir','owner']);
             $table->timestamps();
         });
