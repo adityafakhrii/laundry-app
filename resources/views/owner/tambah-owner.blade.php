@@ -1,5 +1,5 @@
 @extends('layouts.master')
-<title>Tambah Owner | Laundry</title>
+<title>Tambah Owner | Dirtless</title>
 
 @section('content')
 	<div class="row mt-lg-5 ml-lg-4">

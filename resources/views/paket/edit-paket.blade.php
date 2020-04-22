@@ -1,5 +1,5 @@
 @extends('layouts.master')
-<title>Edit Paket | Laundry</title>
+<title>Edit Paket | Dirtless</title>
 
 @section('content')
 	<div class="row mt-lg-5 ml-lg-0">

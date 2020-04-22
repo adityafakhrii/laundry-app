@@ -1,5 +1,5 @@
 @extends('layouts.master')
-<title>Edit Member | Laundry</title>
+<title>Edit Member | Dirtless</title>
 
 @section('content')
 	<div class="row">

@@ -1,5 +1,5 @@
 @extends('layouts.master')
-<title>Riwayat Transaksi | Laundry</title>
+<title>Riwayat Transaksi | Dirtless</title>
 
 @section('content')
 	

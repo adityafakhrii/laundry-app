@@ -1,5 +1,5 @@
 @extends('layouts.master')
-<title>Data Owner | Laundry</title>
+<title>Data Owner | Dirtless</title>
 
 @section('content')
   
