@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplikasi Laundry | Uji Kompetensi Keahlian SMKN 2 Sukabumi </title>
     {{-- Font Awesome --}}
-    <link rel="stylesheet" type="text/css" href="asset/fontawesome/css/all.css"></link>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    {{-- <link rel="stylesheet" type="text/css" href="asset/fontawesome/css/all.css"></link> --}}
+    <script src="https://kit.fontawesome.com/095e56106e.js" crossorigin="anonymous"></script>
     {{-- Poppins Font Family --}}
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap" rel="stylesheet">
@@ -84,7 +84,7 @@
 
 
     </section>
-    <script src="asset/landing/js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
     <script>
         $(".m_button").click(function(){
             $('body').toggleClass("active");
