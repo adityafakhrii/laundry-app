@@ -19,6 +19,7 @@ class CreateDetailTransaksisTable extends Migration
             $table->integer('id_paket')->unsigned();
             $table->double('qty');
             $table->text('keterangan');
+            $table->enum('status',['keranjang','transaksi']);
             $table->timestamps();
         });
     }

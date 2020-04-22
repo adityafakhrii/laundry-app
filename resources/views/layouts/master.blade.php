@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dirtless | Aplikasi Laundry</title>
     {{-- Font Awesome --}}
+
     <link rel="stylesheet" type="text/css" href="{{asset('asset/fontawesome/css/all.css')}}"></link>
 	<link rel="stylesheet" href="{{asset('asset/bootstrap/css/bootstrap.min.css')}}" crossorigin="anonymous">
 	{{-- <link rel="stylesheet" href="{{asset('asset/css/content/style.css')}}"> --}}
