@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap" rel="stylesheet">
     {{-- Css nya --}}
-    <link rel="stylesheet" href="{{asset('asset/landing/css/style.css')}}">
+    <link rel="stylesheet" href="/../public/asset/landing/css/style.css">
     <link rel="icon" href="{{asset('asset/img/icon.svg')}}">
 </head>
 <body>
