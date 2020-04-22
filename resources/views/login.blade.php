@@ -2,22 +2,22 @@
 <html lang="en">
 <head>
     <title>Login Aplikasi Laundry | UKK SMKN 2 Sukabumi</title>
-    <link rel="stylesheet" type="text/css" href="{{asset('asset/login/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="asset/login/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{asset('asset/fontawesome/css/all.css')}}"></link>
+    <link rel="stylesheet" type="text/css" href="asset/fontawesome/css/all.css"></link>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{{asset('asset/img/icon.svg')}}">
+    <link rel="icon" href="asset/img/icon.svg">
 </head>
 <body>
-    <img class="wave" src="{{asset('asset/login/img/wave.png')}}" alt="bg.png">
+    <img class="wave" src="asset/login/img/wave.png" alt="bg.png">
     <div class="container">
         <div class="img">
-            <img src="{{asset('asset/login/img/bg6.svg')}}" alt="">
+            <img src="asset/login/img/bg6.svg" alt="">
         </div>
         <div class="login-container">
             <form action="/do_login" method="POST">
                 @csrf
-                <img class="avatar" src="{{asset('asset/login/img/avatar.svg')}}" alt="avatar.svg">
+                <img class="avatar" src="asset/login/img/avatar.svg" alt="avatar.svg">
                 <h2>Selamat datang</h2>
                 <div class="input-div one">
                     <div class="i">
@@ -51,6 +51,6 @@
         <p>Uji Kompetensi Keahlian SMKN 2 Sukabumi</p>
         <p>Made with <i class="fas fa-heart"></i> by Aditya Fakhri Riansyah - XII RPL 2</p>
     </div>
-    <script type="text/javascript" src="{{asset('asset/login/js/main.js')}}"></script>
+    <script type="text/javascript" src="asset/login/js/main.js"></script>
 </body>
 </html>
