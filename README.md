@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
@@ -87,7 +87,7 @@ Berikut adalah akun untuk dapat mengakses aplikasi ini.
 Super Admin :
  user  = super_admin
  pass  = admin
-====================
+
 Admin 1 :
  user = admin1
  pass = admin
@@ -95,7 +95,7 @@ Admin 1 :
 Admin 2 :
  user = admin2
  pass = admin
-====================
+
 Owner 1 : 
  user = owner1
  pass = owner
@@ -103,7 +103,7 @@ Owner 1 :
 Owner 2 :
  user = owner2
  pass = owner
-====================
+
 Kasir 1 :
  user = kasir1
  pass = kasir
@@ -111,4 +111,5 @@ Kasir 1 :
 Kasir 2 :
  user = kasir2
  pass = kasir
+ 
 >>>>>>> 78482ec63fc865c712445f67f54c2b40553ad933
