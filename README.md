@@ -79,5 +79,36 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 =======
 # laundry-ujikom
-Aplikasi Pengelolaan Laundry untuk Uji Kompetensi Keahlian SMKN 2 SUKABUMI
+Aplikasi Pengelolaan Laundry | Uji Kompetensi Keahlian SMKN 2 Sukabumi
+Dibuat oleh Aditya Fakhri Riansyah - XII RPL 2
+
+Berikut adalah akun untuk dapat mengakses aplikasi ini.
+
+Super Admin :
+ user  = super_admin
+ pass  = admin
+====================
+Admin 1 :
+ user = admin1
+ pass = admin
+
+Admin 2 :
+ user = admin2
+ pass = admin
+====================
+Owner 1 : 
+ user = owner1
+ pass = owner
+
+Owner 2 :
+ user = owner2
+ pass = owner
+====================
+Kasir 1 :
+ user = kasir1
+ pass = kasir
+
+Kasir 2 :
+ user = kasir2
+ pass = kasir
 >>>>>>> 78482ec63fc865c712445f67f54c2b40553ad933
