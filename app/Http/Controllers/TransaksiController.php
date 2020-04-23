@@ -36,12 +36,23 @@ class TransaksiController extends Controller
         return view('transaksi.transaksi',compact('transaksi'));
     }
 
-    public function dataTransaksi()
+    public function dataTransaksi(Request $request)
     {
+        if($request->has('search')){
+        $search = $request->get('search');
+        $transaksi = Transaksi::where('id_outlet','=',auth()->user()->id_outlet)
+                    ->where('kode_invoice','like','%'.$search.'%')
+                    ->orderBy('tgl','desc')
+                    ->paginate(10);
+        }else{
+
+
+
         $transaksi = Transaksi::where('id_outlet','=',auth()->user()->id_outlet)
         ->orderBy('tgl', 'desc')
         ->paginate(10);
-        return view('transaksi.transaksi',compact('transaksi'));
+        }
+        return view('transaksi.data-transaksi',compact('transaksi'));
     }
 
     public function exportpdfOwner(){
@@ -130,6 +141,13 @@ class TransaksiController extends Controller
         $trans = Transaksi::find($id);
         $transaksis = Detail_transaksi::where('id_transaksi','=',$id)->get();
         return view('transaksi.detail_r',compact('transaksis','trans'));
+    }
+
+    public function detail_o($id)
+    {
+        $trans = Transaksi::find($id);
+        $transaksis = Detail_transaksi::where('id_transaksi','=',$id)->get();
+        return view('transaksi.detail_o',compact('transaksis','trans'));
     }
 
 

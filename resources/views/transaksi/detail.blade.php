@@ -91,12 +91,16 @@
 						<div class="row" style="margin:  auto;">
 
 							@if($trans->dibayar == 'belum_dibayar')
+								@if(auth()->user()->role != 'owner')
 				    		<form action="/transaksi/dibayar/{{$trans->id}}" method="POST">
 	                        {{csrf_field()}}   
 	                          <button type="submit" class="btn btn-sm btn-primary ml-3" onclick="return confirm('Anda Yakin ?')">
 	                                      	<i class="fas fa-money-bill-wave-alt"></i> Bayar
 	                          </button>
 	                		</form>
+	                			@else
+	                			<a href="/data-transaksi" class="btn btn-sm btn-primary ml-2"><i class="fas fa-chevron-left"></i> Kembali</a>
+	                			@endif
 	                		<a href="/transaksi" class="btn btn-sm btn-primary ml-2"><i class="fas fa-chevron-left"></i> Kembali</a>	
 			           		@endif
 

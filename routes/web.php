@@ -106,9 +106,7 @@ Route::group(['middleware' => ['auth','checkRole:admin,kasir']], function() {
     Route::post('/konfirmasi/selesai/{id}','TransaksiController@selesai');
     Route::post('/konfirmasi/diambil/{id}','TransaksiController@diambil');
 
-    //Detail
-    Route::get('/transaksi/detail/{id}','TransaksiController@detail');
-    Route::get('/riwayat-transaksi/detail/{id}','TransaksiController@detail_r');
+
 
 
     
@@ -121,11 +119,16 @@ Route::group(['middleware' => ['auth','checkRole:admin,kasir,owner,super_admin']
     Route::get('/dashboard','AuthController@dashboard');
     Route::get('/riwayat-transaksi/exportpdf','TransaksiController@exportpdf');
     Route::get('/transaksi/exportpdf','TransaksiController@exportpdftrans');
+    //Detail
+    Route::get('/transaksi/detail/{id}','TransaksiController@detail');
+    Route::get('/riwayat-transaksi/detail/{id}','TransaksiController@detail_r');
 });
 
 
 Route::group(['middleware' => ['auth','checkRole:owner']], function() {
     Route::get('/data-transaksi','TransaksiController@dataTransaksi');
     Route::get('/data-transaksi/exportpdf','TransaksiController@exportpdfOwner');
+    Route::get('/data-transaksi/detail/{id}','TransaksiController@detail_o');
+
     
 });

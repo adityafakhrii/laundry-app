@@ -1,4 +1,4 @@
-<title>Detail Transaksi | Laundry</title>
+<title>Detail Transaksi | Dirtless</title>
 
 <?php $__env->startSection('content'); ?>
 	
@@ -90,12 +90,16 @@
 						<div class="row" style="margin:  auto;">
 
 							<?php if($trans->dibayar == 'belum_dibayar'): ?>
+								<?php if(auth()->user()->role != 'owner'): ?>
 				    		<form action="/transaksi/dibayar/<?php echo e($trans->id); ?>" method="POST">
 	                        <?php echo e(csrf_field()); ?>   
 	                          <button type="submit" class="btn btn-sm btn-primary ml-3" onclick="return confirm('Anda Yakin ?')">
 	                                      	<i class="fas fa-money-bill-wave-alt"></i> Bayar
 	                          </button>
 	                		</form>
+	                			<?php else: ?>
+	                			<a href="/data-transaksi" class="btn btn-sm btn-primary ml-2"><i class="fas fa-chevron-left"></i> Kembali</a>
+	                			<?php endif; ?>
 	                		<a href="/transaksi" class="btn btn-sm btn-primary ml-2"><i class="fas fa-chevron-left"></i> Kembali</a>	
 			           		<?php endif; ?>
 
